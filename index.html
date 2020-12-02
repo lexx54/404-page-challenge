@@ -44,8 +44,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-around; */
-        height: 85vh;
       }
       .principal-img-container,
       .principal-text-container {
@@ -93,11 +91,45 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        margin-top: 20%;
       }
       footer a {
         text-decoration: none;
         color: red;
         font-style: italic;
+      }
+      @media screen and (min-width: 768px) {
+        #principal-container {
+          flex-direction: row;
+        }
+
+        .principal-text-container {
+          height: 100%;
+          /* justify-content: space-around; */
+          align-items: flex-start;
+        }
+        .principal-text-container * {
+          padding: 0;
+        }
+        .title {
+          width: 70%;
+        }
+        .text {
+          width: 60%;
+          color: #333333;
+        }
+        .text,
+        .title,
+        .btn {
+          padding-bottom: 1rem;
+        }
+        .principal-text-container h2 {
+          font-size: 3em;
+        }
+
+        footer {
+          margin-top: 10%;
+        }
       }
     </style>
   </head>
@@ -109,8 +141,8 @@
           <img src="Scarecrow.png" alt="error img" />
         </div>
         <div class="principal-text-container">
-          <h2>I have bad News for you</h2>
-          <p>
+          <h2 class="title">I have bad News for you</h2>
+          <p class="text">
             the page you are looking for might be removed or is temporarily
             unavailable
           </p>
