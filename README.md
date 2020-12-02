@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 page challenge}</h1>
+<h1 align="center">404 page challenge</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -68,6 +68,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://maprojectlx.000webhostapp.com/)
+- Website [Portfolio](https://maprojectlx.000webhostapp.com/)
 - GitHub [@lexx54](https://https://github.com/lexx54)
 - Twitter [@your-twitter](https://https://twitter.com/code_lexx)
