@@ -22,15 +22,82 @@
     />
 
     <title>Devchallenges</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       * {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin: 0;
         padding: 0;
       }
+      main {
+        padding: 1em;
+      }
+      main h1 {
+        font-family: "Inconsolata", monospace;
+      }
+      #principal-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        height: 85vh;
+      }
+      .principal-img-container,
+      .principal-text-container {
+        flex: 1;
+      }
+      .principal-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       .principal-img-container img {
-        width: 100%;
+        width: 90%;
+      }
+      .principal-text-container {
+        display: flex;
+        flex-direction: column;
+        font-family: "Space Mono", monospace;
+      }
+      .principal-text-container * {
+        flex: 1;
+        padding: 0.5em;
+      }
+      .principal-text-container h2 {
+        font-weight: 700;
+        font-size: 2em;
+        text-align: justify;
+      }
+      .btn {
+        /* margin: 1em; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .principal-text-container a {
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        background-color: #333333;
+        padding: 1em 1em;
+        flex: 0 1 50%;
+        text-transform: uppercase;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      footer a {
+        text-decoration: none;
+        color: red;
+        font-style: italic;
       }
     </style>
   </head>
@@ -47,10 +114,15 @@
             the page you are looking for might be removed or is temporarily
             unavailable
           </p>
-          <a href="">back to homepage</a>
+          <p class="btn"><a href="">back to homepage</a></p>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p>
+        <a href="https://twitter.com/code_lexx">codeLexx</a> &#64;
+        DevChallege.io
+      </p>
+    </footer>
   </body>
 </html>
